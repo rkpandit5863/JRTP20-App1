@@ -4,6 +4,8 @@ import java.util.Base64;
 import java.util.Base64.Decoder;
 import java.util.Base64.Encoder;
 
+int a=10;
+
 public class PasswordService {
 	public static String encode(String txt) {
 		Encoder encoder=Base64.getEncoder();
